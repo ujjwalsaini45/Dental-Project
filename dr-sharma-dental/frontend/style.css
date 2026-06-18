@@ -1,0 +1,18 @@
+/* Minimal starter CSS. To keep things simple I've moved core tokens and layout styles here later if you want.
+   Replace or extend with the full CSS from your `hello.html` as needed. */
+
+:root {
+  --navy: #0A1628;
+  --blue: #00B4D8;
+  --gold: #F4A427;
+  --white: #FFFFFF;
+}
+
+body { font-family: 'Inter', sans-serif; margin: 0; color: var(--navy); background: var(--white); }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+/* Basic utilities used by index.html scaffold */
+.btn { display: inline-block; padding: 10px 16px; border-radius: 8px; }
+.btn-gold { background: var(--gold); color: var(--navy); }
+
+/* Add your full styles copied from original `hello.html` when ready. */
